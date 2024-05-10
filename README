@@ -4,7 +4,27 @@ Link to magnets used to connect pieces https://www.aliexpress.us/item/3256805893
 
 Link to BBs to fill pieces: https://www.amazon.com/dp/B000HKKY7M?ref=nb_sb_ss_w_as-reorder_k0_1_3&amp=&crid=1QRWH0OMD10BC&amp=&sprefix=bbs
 
-I dumped the files here but I'm too lazy to make an in-depth guide just yet
+I dumped the files here but I'm too lazy to make an in-depth guide just yet. The real project involved creating a guide piece to mass-dump bbs into 121 pieces all at the same time, but such a guide piece was not printable
 
 If you actually want help 3d printing this, please message me on discord @_bae_
 
+
+## Printing Pieces
+
+Please us 7% infill in rectilinear pattern. I used 2 floors, 3 ceilings, 1 wall, 0.28mm layer height fastest settings. Please ensure there is slightly less than 9mm of free space between the floor and ceiling solid layers. Add a PAUSE GCODE at the begginning of the first ceiling layer to add in 8 BBs tightly. No Supports.
+
+For the Normal and Special tiles, there are multiple filament colors used in the same print. 
+- For the special tiles, import both pieces of the STL at the same print to make a multi-part object in the slicer (this at least works in prusa slicer). Then change the extruder for the second part of the object.
+- For the normal tiles, add a layer height modifier after the 5mm mark so that it changes to the second extruder
+
+You may have to set up your printer to use multi-color or multi-extruder settings to print these correctly. Note, this doesn't require a AMS or multifilament solution, but it will requrie you to change out the filament once or twice per print.
+
+## Printing Boards
+
+You can get away with having 2 walls, 15% infill, 0.28 layer height, no supports. The print is forgiving. Please ensure that the magnets fit before printing many pieces, as I had to dial it in perfectly for my printer.
+
+## Printing Board Tiles
+
+These were only used so I didn't have to baby prints on multicolor board pieces and I didn't have much time or a Bambu P1S. I advise that if you know the tile colors beforehand and are able to print them in the print, do so. Otherwise print the board tiles.
+
+100% infill (not that it matters), 3 floor 4 ceiling, 0.28 mm layer height fastest settings. Coencentric first layer. Print as many as your printer will allow, but keep in mind that they are super sensitive to any imperfections in the heat bed, print bed, or the bed leveling mechanism. To get the maximum amount per print, you may want to redo any bed leveling and bed mesh calibration steps that you did to set up your printer. Otherwise, just print as many as possible and throw away any pieces that don't fit.
