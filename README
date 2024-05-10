@@ -13,7 +13,7 @@ If you actually want help 3d printing this, please message me on discord @_bae_
 
 ## Printing Pieces
 
-Please us 7% infill in rectilinear pattern. I used 2 floors, 3 ceilings, 1 wall, 0.28mm layer height fastest settings. Please ensure there is slightly less than 9mm of free space between the floor and ceiling solid layers. Add a PAUSE GCODE at the begginning of the first ceiling layer to add in 8 BBs tightly. No Supports.
+Please use 7% infill in rectilinear pattern. I used 2 floors, 3 ceilings, 1 wall, 0.28mm layer height fastest settings. Please ensure there is slightly less than 9mm of free space between the floor and ceiling solid layers. Add a PAUSE GCODE at the begginning of the first ceiling layer to add in 8 BBs tightly. No Supports.
 
 For the Normal and Special tiles, there are multiple filament colors used in the same print. 
 - For the special tiles, import both pieces of the STL at the same print to make a multi-part object in the slicer (this at least works in prusa slicer). Then change the extruder for the second part of the object.
