@@ -22,18 +22,6 @@ If you actually want help 3d printing this, please message me on discord @_bae_
 
 Any filament works for any of these components. I reccomend buying the cheapest PLA or PLA+ from amazon as these can be very material hungry, especially if you print a lot.
 
-# 1x1 Pieces
-
-See [CUSTOM_1x1_SET](CUSTOM_1x1_SET).
-
-This is a 1x1 piece that should connect to form any kind of board. This is the easiest way of printing the board, but is not ideal if you need quick setup and teardown in a tournament environment.
-
-Print with Octogram Spiral as the Top Infill pattern.
-
-Print 9 of the [prod-grid-single-Chamfer.stl](CUSTOM_1x1_SET/prod-grid-single-Chamfer.stl) pieces as a test run and see how nicely they connect. Adjust your pressure advance value on your printer until the fit feels nice enough. (It shouldn't be too loose, but it shouldn't snap together. Ideally you will want to take the board apart)
-
-Once you find the optimum settings, print a bunch of these pieces in black and white. You can also print light blue and gold pieces to indicate where the initial special pieces are placed.
-
 # Printing Pieces
 
 Please use 7% infill in rectilinear pattern. I used 2 floors, 3 ceilings, 1 wall, 0.28mm layer height fastest settings. Please ensure there is slightly less than 9mm of free space between the floor and ceiling solid layers. Add a PAUSE GCODE at the begginning of the first ceiling layer to add in 8 BBs tightly. No Supports.
@@ -48,6 +36,18 @@ You may have to set up your printer to use multi-color or multi-extruder setting
 To add BBs into these tiles in bulk, I had to make a custom jig. However such a jig required quite a bit of hacking with the slicer and is hard to explain. DM me, `_bae_` on Discord if you need help or file an issue.
 
 # Printing Boards
+
+## 1x1 Pieces
+
+See [CUSTOM_1x1_SET](CUSTOM_1x1_SET).
+
+This is a 1x1 piece that should connect to form any kind of board. This is the easiest way of printing the board, but is not ideal if you need quick setup and teardown in a tournament environment.
+
+Print with Octogram Spiral as the Top Infill pattern.
+
+Print 9 of the [prod-grid-single-Chamfer.stl](CUSTOM_1x1_SET/prod-grid-single-Chamfer.stl) pieces as a test run and see how nicely they connect. Adjust your pressure advance value on your printer until the fit feels nice enough. (It shouldn't be too loose, but it shouldn't snap together. Ideally you will want to take the board apart)
+
+Once you find the optimum settings, print a bunch of these pieces in black and white. You can also print light blue and gold pieces to indicate where the initial special pieces are placed.
 
 ## NEW BOARDS
 
