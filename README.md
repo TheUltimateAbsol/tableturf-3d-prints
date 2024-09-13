@@ -8,6 +8,14 @@ Inspired by the original print from joeharrison9696 https://www.thingiverse.com/
 
 Link to BBs to fill pieces: https://www.amazon.com/dp/B000HKKY7M?ref=nb_sb_ss_w_as-reorder_k0_1_3&amp=&crid=1QRWH0OMD10BC&amp=&sprefix=bbs
 
+Filaments
+- Yellow https://www.amazon.com/dp/B0991Y913J/ref=twister_B07ZJPCQBN?_encoding=UTF8&psc=1
+- Blue https://www.amazon.com/dp/B07PDW6X99/ref=twister_B07ZJPCQBN?_encoding=UTF8&th=1
+- Black https://www.amazon.com/dp/B07PGY2JP1/ref=twister_B07ZJPCQBN?_encoding=UTF8&th=1 (but you can use anything really)
+- Gold https://www.amazon.com/dp/B087RP8NNZ/ref=twister_B07ZJPCQBN?_encoding=UTF8&th=1
+- Light Blue https://www.amazon.com/dp/B0BKFKGQKK/ref=twister_B07ZJPCQBN?_encoding=UTF8&th=1
+- Grey https://www.amazon.com/dp/B07PDW8QWJ/ref=twister_B07ZJPCQBN?_encoding=UTF8&th=1
+
 I dumped the files here but I'm too lazy to make an in-depth guide just yet. The real project involved creating a guide piece to mass-dump bbs into 121 pieces all at the same time, but such a guide piece was not printable as a single object and I had to set it up to print 121 open-top open-bottom pieces on top of a base layer guide piece and there's no way for me to export the parts while keeping the correct infil pattern.
 
 If you actually want help 3d printing this, please message me on discord @_bae_
